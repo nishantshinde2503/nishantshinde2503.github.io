@@ -1,0 +1,76 @@
+/* File: styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #87CEEB;
+    margin: 0;
+    padding: 0;
+    color: #8B4513;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #fff;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+  }
+  
+  nav div {
+    color: #8B4513;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 0 0 auto;
+    width: 120px;
+  }
+  
+  nav div:hover {
+    background-color: #f0f0f0;
+  }
+  
+  #menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  #menu div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  #menu img {
+    width: 100px;
+    height: 100px;
+    transition: width 0.3s, height 0.3s;
+  }
+  
+  #menu img:hover {
+    width: 200px;
+    height: 200px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    nav div {
+      width: 100%;
+    }
+  }
+  
